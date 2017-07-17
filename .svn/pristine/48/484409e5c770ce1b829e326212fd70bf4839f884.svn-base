@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Username",
+    "_skin_": "s6a838cf591c4f0b9caa0c5664bff04c",
+    "_text_": "johnsmith@gmail.com",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "placeholderSkin": "s9beeb09774347da9c4153df56363c21"
+    },
+    "focusskin": "s6a838cf591c4f0b9caa0c5664bff04c",
+    "id": "txtPass",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "14cf0a87111a45a1a75d8cc9dfe47aed",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flexLogin",
+    "pf": "frmLogin",
+    "securetextentry": true,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField"
+}

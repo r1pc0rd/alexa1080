@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f83ab4ed124a40f7bf2609aa55577255": {
+        "id": "AS_FlexContainer_f83ab4ed124a40f7bf2609aa55577255",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSelectMovie",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a092a4cb985c460fa34aac3b3e5d2b16"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f356e11c27ce4138be0ba2e44be69dd4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "onclickMovieName(7);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

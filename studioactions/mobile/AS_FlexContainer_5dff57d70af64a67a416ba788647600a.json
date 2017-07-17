@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_5dff57d70af64a67a416ba788647600a": {
+        "id": "AS_FlexContainer_5dff57d70af64a67a416ba788647600a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "770df4a2adc14b46b609fa6a251f9155"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__889bcb2dbb134be2a02274e01dc30975",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"hello\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

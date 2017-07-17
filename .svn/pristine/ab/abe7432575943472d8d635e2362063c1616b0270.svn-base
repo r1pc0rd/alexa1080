@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s72cc691d4584c8cb3790e779442535d",
+    "_top_": {
+        "type": "string",
+        "value": "1.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flexServer1",
+        "CopyflexServer0bce42082e95d46",
+        "CopyflexServer00fc23a96724143"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "FlexContainer0f026156771d54b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c98dc1d0506b4cf9bc2a9a27c7b62d23",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flexMain",
+    "pf": "frmSelectMovie",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

@@ -1,0 +1,11 @@
+{
+  "background_image": "img_serenity_opt.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "scd988ae3fd34260a4c077b3b61bab9b",
+  "wType": "FlexContainer"
+}

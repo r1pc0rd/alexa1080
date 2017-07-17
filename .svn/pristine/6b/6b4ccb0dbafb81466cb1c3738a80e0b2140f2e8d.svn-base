@@ -1,0 +1,21 @@
+function onclickServer(n){
+  if(eval("frmHome.flexServerImg"+n).skin=="sknFlexServerN"){
+    eval("frmHome.flexServerImg"+n).skin="sknFlexServerF"
+    eval("frmHome.flexServerLbl"+n).skin="sknLbl3F"
+  }
+  else{
+    eval("frmHome.flexServerImg"+n).skin="sknFlexServerN"
+    eval("frmHome.flexServerLbl"+n).skin="sknLbl3"
+  }
+}
+
+function onclickPlayer(n){
+  if(eval("frmHome.flexPlayerImg"+n).skin=="sknFlexPlayer"){
+    eval("frmHome.flexPlayerImg"+n).skin="sknFlexPlayerF"
+    eval("frmHome.flexPlayerLbl"+n).skin="sknLbl3F"
+  }
+  else{
+    eval("frmHome.flexPlayerImg"+n).skin="sknFlexPlayer"
+    eval("frmHome.flexPlayerLbl"+n).skin="sknLbl3"
+  }
+}

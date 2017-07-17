@@ -1,0 +1,11 @@
+{
+  "background_image": "img_guardians_of_the_galaxy_opt.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "sd334006269b4fe789f2f9b500dce53f",
+  "wType": "FlexContainer"
+}

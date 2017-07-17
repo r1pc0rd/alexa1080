@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd07c834f98a43f99742623eefbda9e5",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "scc26abfe71a47079d153e9923c66894",
+    "id": "btnRemMe",
+    "info": null,
+    "isvisible": true,
+    "kuid": "12c5d5017ef14c0199d8f292b7cdf137",
+    "name": "kony.ui.Button",
+    "parent": "flexRemMe",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

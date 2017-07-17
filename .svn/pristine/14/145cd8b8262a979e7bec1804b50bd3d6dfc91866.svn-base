@@ -1,0 +1,11 @@
+{
+  "background_image": "img_attack_of_the_herbals_opt.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s5531059d8ac4b7284d8f26fd6db64f9",
+  "wType": "FlexContainer"
+}

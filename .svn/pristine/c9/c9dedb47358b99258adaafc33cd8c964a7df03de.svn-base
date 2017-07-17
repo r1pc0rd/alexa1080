@@ -1,0 +1,3 @@
+function AS_Button_580da0e03f0d46be9597f64ea738e0c8(eventobject) {
+    clearNotif();
+}

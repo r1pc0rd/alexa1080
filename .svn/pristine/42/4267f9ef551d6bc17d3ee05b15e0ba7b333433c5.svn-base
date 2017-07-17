@@ -1,0 +1,155 @@
+function failureCallback(err){
+// 	var infoAlert = kony.ui.Alert({
+//             message: "push registration error" + JSON.stringify(err),
+//             alertType: constants.ALERT_TYPE_INFO,
+//             alertTitle: "Engie",
+//             yesLabel: "OK",
+//             noLabel: "Cancel",
+//             alertHandler: null
+//         }, {});
+}
+
+function setPushCallbacks() {
+	var callbacks = {
+		onsuccessfulregistration: regSuccess,
+		onfailureregistration: regError,
+		onlinenotification: onlinenotification,
+		offlinenotification: offlinenotification,
+		onsuccessfulderegistration: deregSuccess,
+		onfailurederegistration: deregFailure
+	};
+	kony.push.setCallbacks(callbacks);
+    registerPush();
+}
+
+function registerPush() {
+      var config;
+		if(kony.os.deviceInfo().name === "iPhone") {
+			 config = [0, 1, 2];			
+		} else {
+			config = {senderid: "947073648918"};
+		}
+		
+		try {
+			kony.push.register(config);
+		}
+		catch(err){
+			kony.print(err);
+		}
+	
+}
+
+function regSuccess(ident) {
+		var info = kony.os.deviceInfo();
+       
+        deviceID = info.deviceid;
+  if(kony.os.deviceInfo().name === "iPhone"){
+		kmsObject.register("iphone", deviceID, ident, "Alexa", registerSubscriberPushCallback, failureCallback);
+	}
+	else {
+		kmsObject.register("androidgcm", deviceID, ident, "Alexa", registerSubscriberPushCallback, failureCallback);
+	}
+}
+
+function registerSubscriberPushCallback(response) {
+	 var infoAlert = kony.ui.Alert({
+            message: response.message,
+            alertType: constants.ALERT_TYPE_INFO,
+            alertTitle: "Push Demo",
+            yesLabel: "OK",
+            noLabel: "Cancel",
+            alertHandler: null
+        }, {});
+}
+
+function regError(error) {
+	alert(error);
+}
+
+function onlinenotification(pushMsg) {
+ //alert(pushMsg);
+   kony.print("push msg---"+JSON.stringify(pushMsg));
+		
+		if(kony.os.deviceInfo().name=="android")
+		{
+				promotionPushName=pushMsg["content"];
+		}
+		else
+		{
+				if(typeof(pushMsg.alert) == "string")
+				{
+					promotionPushName=pushMsg.alert;
+				}
+				else
+				{
+					promotionPushName=pushMsg.alert.body;
+				}
+		}
+  
+  var infoAlert = kony.ui.Alert({
+            message: promotionPushName,
+            alertType: constants.ALERT_TYPE_INFO,
+            alertTitle: "Push Demo",
+            yesLabel: "OK",
+            noLabel: "Cancel",
+            alertHandler: null
+        }, {});
+  
+}
+
+function offlinenotification(pushMsg) {
+   kony.print("push msg---"+JSON.stringify(pushMsg));
+		
+		if(kony.os.deviceInfo().name=="android")
+		{
+				promotionPushName=pushMsg["content"];
+		}
+		else
+		{
+				if(typeof(pushMsg.alert) == "string")
+				{
+					promotionPushName=pushMsg.alert;
+				}
+				else
+				{
+					promotionPushName=pushMsg.alert.body;
+				}
+		}
+  
+  var infoAlert = kony.ui.Alert({
+            message: promotionPushName,
+            alertType: constants.ALERT_TYPE_INFO,
+            alertTitle: "Push Demo",
+            yesLabel: "OK",
+            noLabel: "Cancel",
+            alertHandler: null
+        }, {});
+}
+
+function deregisterPush() {
+	kony.push.deRegister({});
+}
+
+function deregSuccess() {
+	kmsObject.unregister(unregisterSubscriberPushCallback, deregfailureCallback);
+}
+
+function unregisterSubscriberPushCallback(response) {
+ var infoAlert = kony.ui.Alert({
+            message: response.message,
+            alertType: constants.ALERT_TYPE_INFO,
+            alertTitle: "Push Demo",
+            yesLabel: "OK",
+            noLabel: "Cancel",
+            alertHandler: null
+        }, {});
+}
+
+function deregFailure(error) {
+	kony.print(error);
+}
+
+function deregfailureCallback(err){
+	kony.print("push deregistration error" + JSON.stringify(err));
+}
+

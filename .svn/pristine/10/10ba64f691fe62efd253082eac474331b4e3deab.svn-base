@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s72cd9b1607c4546b240e896f5e778c9",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "FBox0dad10efc73664a",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgMovie",
+    "imagescalemode": 1,
+    "imagewhiledownloading": "icon_3.png",
+    "info": null,
+    "invokedProperty": "imageWhileDownloading",
+    "isSegmentChild": true,
+    "isvisible": true,
+    "kuid": "f0086917e2584d47a7aafb9517539e53",
+    "name": "kony.ui.Image2",
+    "parent": "flexNotif",
+    "pf": "FBox0dad10efc73664a",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

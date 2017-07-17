@@ -1,0 +1,11 @@
+{
+  "background_image": "img_interstellar_opt.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s4783e1947684f40aa49e4347ffb3412",
+  "wType": "FlexContainer"
+}

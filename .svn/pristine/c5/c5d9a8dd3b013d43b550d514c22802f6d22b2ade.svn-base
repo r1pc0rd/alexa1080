@@ -1,0 +1,11 @@
+{
+  "background_image": "img_start_wars_opt.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "sec1c10a00044bd28358bf50e0aaeb71",
+  "wType": "FlexContainer"
+}

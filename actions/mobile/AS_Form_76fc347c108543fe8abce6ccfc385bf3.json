@@ -1,0 +1,24 @@
+{
+    "AS_Form_76fc347c108543fe8abce6ccfc385bf3": {
+        "id": "AS_Form_76fc347c108543fe8abce6ccfc385bf3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "0125e7b130e6453b8c01d82f5043ce3a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b529f73aeef04912a0da404218a5f992",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "initializeKonyMobileFabricClient();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

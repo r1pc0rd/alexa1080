@@ -1,0 +1,11 @@
+{
+  "background_image": "icon_player_n.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "s28ef70f29d94b0785747b7a905b63e0",
+  "wType": "FlexContainer"
+}

@@ -1,0 +1,11 @@
+{
+  "background_image": "icon_server_f.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "saee5e06ae2349d59927695e1467b7a0",
+  "wType": "FlexContainer"
+}

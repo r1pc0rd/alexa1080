@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd07c834f98a43f99742623eefbda9e5",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": false,
+    "focusskin": "sd07c834f98a43f99742623eefbda9e5",
+    "id": "btnRemMe",
+    "ide_onClick": "AS_Button_74ca53c3bc3e41639cf49e9da1b44f28",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "12c5d5017ef14c0199d8f292b7cdf137",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_74ca53c3bc3e41639cf49e9da1b44f28",
+    "parent": "flexRemMe",
+    "pf": "frmLogin",
+    "showprogressindicator": false,
+    "wType": "Button",
+    "zindex": 1
+}
