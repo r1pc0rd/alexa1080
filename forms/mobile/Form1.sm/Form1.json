@@ -27,7 +27,7 @@
     "canUpdateUI": true,
     "children": [
         "slider",
-        "TabPane0d0f6119e08ca47"
+        "Button0ccbcb598097b4e"
     ],
     "containerweight": 100,
     "currentLocale": "default",
