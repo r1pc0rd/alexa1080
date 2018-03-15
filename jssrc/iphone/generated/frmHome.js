@@ -115,7 +115,7 @@ function addWidgetsfrmHome() {
         "clipBounds": true,
         "height": "50%",
         "id": "flexCart",
-        "isVisible": true,
+        "isVisible": false,
         "layoutType": kony.flex.FREE_FORM,
         "right": "7%",
         "skin": "slFbox",

@@ -1,4 +1,5 @@
 function skinsInit() {
+    blockedUISkn2 = "blockedUISkn2";
     Copyseg0735455ea4f254c = "Copyseg0735455ea4f254c";
     CopysknFlexServerF04fa019b42ed44b = "CopysknFlexServerF04fa019b42ed44b";
     CopysknFlexServerF053c7888104814c = "CopysknFlexServerF053c7888104814c";
@@ -25,7 +26,6 @@ function skinsInit() {
     CopyslLabel0f2f485ab97a642 = "CopyslLabel0f2f485ab97a642";
     CopyslTextBox01d0921bd3c9a4b = "CopyslTextBox01d0921bd3c9a4b";
     CopyslTextBox0ac4652a0987940 = "CopyslTextBox0ac4652a0987940";
-    blockedUISkn2 = "blockedUISkn2";
     flxLine1 = "flxLine1";
     seg2Focus = "seg2Focus";
     seg2Normal = "seg2Normal";
@@ -49,15 +49,15 @@ function skinsInit() {
     slButtonGlossBlue = "slButtonGlossBlue";
     slButtonGlossRed = "slButtonGlossRed";
     slDynamicNotificationForm = "slDynamicNotificationForm";
-    slFSbox = "slFSbox";
     slFbox = "slFbox";
     slForm = "slForm";
+    slFSbox = "slFSbox";
     slImage = "slImage";
+    sliPhoneSegmentHeader = "sliPhoneSegmentHeader";
     slLabel = "slLabel";
     slPopup = "slPopup";
     slStaticNotificationForm = "slStaticNotificationForm";
     slTextBox = "slTextBox";
     slTitleBar = "slTitleBar";
     slWatchForm = "slWatchForm";
-    sliPhoneSegmentHeader = "sliPhoneSegmentHeader";
 };

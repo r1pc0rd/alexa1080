@@ -12,8 +12,8 @@ var appConfig = {
     middlewareContext: "MediaController",
     isMFApp: false,
     eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
-    url: "https://konysecloud.konycloud.com/MediaController/MWServlet",
-    secureurl: "https://konysecloud.konycloud.com/MediaController/MWServlet"
+    url: "https://engiee-demo.konycloud.com/MediaController/MWServlet",
+    secureurl: "https://engiee-demo.konycloud.com/MediaController/MWServlet"
 };
 sessionID = "";
 
@@ -25,6 +25,7 @@ function appInit(params) {
     initializeMVCTemplates();
     initializeUserWidgets();
     initializeFBox0dad10efc73664a();
+    Form1Globals();
     frmHomeGlobals();
     frmLoginGlobals();
     frmSelectMovieGlobals();

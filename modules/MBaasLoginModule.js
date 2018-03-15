@@ -1,11 +1,11 @@
 function initializeKonyMobileFabricClient(){
   try{
- client = new kony.sdk();
-        var appkey = "41142ec2cc16e67e3a4e84c3d8b7224c";
-        var appsecret = "5c4c92a3349c483cc79d563c0f7bf659";
-        var serviceurl = "https://100000032.auth.konycloud.com/appconfig";
+        client = new kony.sdk();
+        var appkey = "ed8bad12cad2c5da8ecb5487ed291640";
+        var appsecret = "955eac069bda283c5703d5e746f3873d";
+        var serviceurl = "https://100000117.auth.konycloud.com/appconfig";
         kony.print("******* Initializing MobileFabric Client *******");    
-        client.init(appkey,appsecret,serviceurl, initMBSuccess, initMBFailure);
+        client.init("ed8bad12cad2c5da8ecb5487ed291640","955eac069bda283c5703d5e746f3873d","https://100000117.auth.konycloud.com/appconfig", initMBSuccess, initMBFailure);
   }
   catch(err)
     {

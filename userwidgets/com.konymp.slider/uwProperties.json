@@ -1,0 +1,224 @@
+{
+    "classname": "slider",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "kuid": "eb6e33d7ed57449f80666e60c0733cb3",
+                    "paramList": [],
+                    "propertyKey": "getSelectedValues",
+                    "pw": {
+                        "displayName": "getSelectedValues",
+                        "uiRepresentation": "Label-Label-Right"
+                    },
+                    "type": "api"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "kuid": "f606f63a72f3419db77709b0ece533f4",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onMinChange",
+                    "pw": {
+                        "displayName": "onMinChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "kuid": "i90e7c06ed8542a6b3b86598a8b9682b",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyKey": "onMinChangeEnd",
+                    "pw": {
+                        "displayName": "onMinChangeEnd",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "kuid": "d2276600fbae44d9a0d089129e8135a1",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyIndex": 4,
+                    "propertyKey": "onMaxChange",
+                    "pw": {
+                        "displayName": "onMaxChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                },
+                {
+                    "kuid": "f8009254d5a440768bc16a2b4696e390",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyKey": "onMaxChangeEnd",
+                    "pw": {
+                        "displayName": "onMaxChangeEnd",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "action": "messagePassAction",
+                    "actionType": "Invoke Action",
+                    "defaultValue": "0",
+                    "kuid": "cae692db8c604286a5e9341f5439bdad",
+                    "originalPropertyKey": "graduations",
+                    "propertyIndex": 3,
+                    "propertyKey": "graduations",
+                    "pw": {
+                        "displayName": "Steps",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "FreeForm",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "action": "messagePassAction",
+                    "actionType": "Invoke Action",
+                    "defaultValue": "5",
+                    "kuid": "a68ac415027f40d19482fc903388e124",
+                    "originalPropertyKey": "divisions",
+                    "propertyIndex": 4,
+                    "propertyKey": "divisions",
+                    "pw": {
+                        "displayName": "Interval Count",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "FreeForm",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "action": "messagePassAction",
+                    "actionType": "Invoke Action",
+                    "defaultValue": true,
+                    "kuid": "e7292db82d0f4c13b55110b2a349bc64",
+                    "originalPropertyKey": "intervalDisplay",
+                    "propertyIndex": 5,
+                    "propertyKey": "intervalDisplay",
+                    "pw": {
+                        "displayName": "Interval Display",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "action": "messagePassAction",
+                    "actionType": "Invoke Action",
+                    "defaultValue": "0",
+                    "kuid": "a914cf5310bb464e91e18181ba4c703b",
+                    "originalPropertyKey": "startIndex",
+                    "propertyIndex": 6,
+                    "propertyKey": "startIndex",
+                    "pw": {
+                        "displayName": "Default Minimum Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "FreeForm",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "action": "messagePassAction",
+                    "actionType": "Invoke Action",
+                    "defaultValue": "100",
+                    "kuid": "f1720a473aec469887fe195297fcf075",
+                    "originalPropertyKey": "endIndex",
+                    "propertyIndex": 7,
+                    "propertyKey": "endIndex",
+                    "pw": {
+                        "displayName": "Default Maximum Value",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u15ea09569154d12adfec70639e98c40",
+                    "type": "FreeForm",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "kuid": "b950706768e04317b17855f7ab2deeb1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "minValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Minimum Label",
+                        "srcWidget": "lblBegin",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud9b00478e6541929189d6f7d89ce334"
+                },
+                {
+                    "access": "Enable",
+                    "kuid": "gb0d614c4e02407c9efc22ec466fb458",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "maxValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Maximum Label",
+                        "srcWidget": "lblEnd",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ud6ff85debc74ec191c676a72d443a9b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

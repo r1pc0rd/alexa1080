@@ -140,6 +140,9 @@
     "appversionkey": "1.0.0",
     "build": "debug",
     "category": "app",
+    "cordovaVersionInfo": {
+        "useGlobalCordova": false
+    },
     "createdVizVersion": "7.1.0",
     "createdgaversion": "7.1.0",
     "currentgaversion": "8.0.0",
@@ -147,8 +150,10 @@
     "desktopwebaligenmentoption": "Left",
     "desktopwebbasefontsize": "16",
     "desktopwebwidthoption": "percentage",
+    "enableCordova": false,
     "enableIdForAutomation": false,
     "enableactionbar": false,
+    "export.type": "studioviz",
     "ipadlandscapemodekey": "portrait",
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
@@ -157,18 +162,21 @@
     "mastersProperties": {
         "mastersVersion": "1.0.0"
     },
+    "mfappguid": {
+        "944ad2ba-2fd3-42bc-a25a-88723d35827e": "aa3b1a2d-58be-4a31-8f2e-722780329679"
+    },
     "mwaddrkey": "",
     "mwhttpsportkey": "",
     "mwportkey": "",
     "nativeContainerProperties": {
-        "isModified": false,
-        "isEnableJSContainer": false,
-        "isEnableJSContainerAndroid": false,
+        "isModified": true,
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
         "isEnableJSContaineriOS": false
     },
     "project.type": "js",
     "projectCloudGuid": "a468e0c3-f4d0-408e-941a-57e81ee54042",
-    "project_version": "sprint28",
+    "project_version": "sprint29",
     "prototype": {
         "createdBy": "Akshay%20 Jain",
         "createdById": "f8d7fee9-ad5e-4be1-9d1a-8b5b8cab856e",

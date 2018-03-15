@@ -196,7 +196,25 @@ function addWidgetsfrmLogin() {
         "showProgressIndicator": true
     });
     flexLogin.add(txtUser, flxLine1, txtPass, flxLine2, flexRemMe, btnLogin);
-    frmLogin.add(imgLogin, flexLogin);
+    var lblError = new kony.ui.Label({
+        "centerX": "50%",
+        "id": "lblError",
+        "isVisible": true,
+        "left": "77dp",
+        "skin": "CopyslLabel0c0b718d14c104b",
+        "text": "Bad user name or password",
+        "top": "228dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    frmLogin.add(imgLogin, flexLogin, lblError);
 };
 
 function frmLoginGlobals() {

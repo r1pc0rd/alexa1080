@@ -46,9 +46,9 @@ function displyAlrtFun()
 {
   var pspConfig = {"iconPosition" : constants.ALERT_CONTENT_ALIGN_LEFT,"contentAlignment":constants.ALERT_ICON_POSITION_CENTER } ;
   var alert = kony.ui.Alert({
-  "message": "Streaming has started in "+playerNameVal,
+  "message": "Selected movie: "+movieNameVal+"\n"+"Selected player: "+playerNameVal,
   "alertType": constants.ALERT_TYPE_INFO,
-  "alertTitle": movieNameVal,
+  "alertTitle": "Media Controller",
   "yesLabel": "OK",
   "noLabel": "Cancel",
   "alertIcon": "notificationimg.png",
@@ -60,5 +60,6 @@ function displyAlrtFun()
 function homeNavFun()
 {
   PushOperation();
+  addMovie();
   frmHome.show();
 }

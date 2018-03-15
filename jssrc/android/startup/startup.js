@@ -8,12 +8,12 @@ var appConfig = {
     serverIp: "192.168.0.100",
     serverPort: "80",
     secureServerPort: "443",
-    isDebug: true,
+    isDebug: false,
     middlewareContext: "MediaController",
     isMFApp: false,
     eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
-    url: "https://mbaas-nightly15.qa-konycloud.com/MediaController/MWServlet",
-    secureurl: "https://mbaas-nightly15.qa-konycloud.com/MediaController/MWServlet"
+    url: "https://mfcdemo2.konycloud.com/MediaController/MWServlet",
+    secureurl: "https://mfcdemo2.konycloud.com/MediaController/MWServlet"
 };
 sessionID = "";
 
@@ -63,6 +63,6 @@ function onSuccessSDKCallBack() {
 kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
 loadResources();
-// If you wish to debug Application Initialization events, now is the time to
-// place breakpoints.
-debugger;
+kony.print = function() {
+    return;
+};

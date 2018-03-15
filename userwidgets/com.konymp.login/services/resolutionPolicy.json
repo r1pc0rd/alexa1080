@@ -1,0 +1,4 @@
+{
+    "policyScope": "local",
+    "policyInfo": "{\"identitySvcs\":[{\"name\":\"reusableFacebookLogin\",\"type\":\"idprovider\",\"conflictType\":\"name\",\"supportedConflictResolutionPolicies\":[\"override\",\"reuse\"],\"conflictResolutionPolicy\":\"reuse\"},{\"name\":\"reusableLinkedinLogin\",\"type\":\"idprovider\",\"conflictType\":\"name\",\"supportedConflictResolutionPolicies\":[\"override\",\"reuse\"],\"conflictResolutionPolicy\":\"reuse\"},{\"name\":\"reusableOffice365Login\",\"type\":\"idprovider\",\"conflictType\":\"name\",\"supportedConflictResolutionPolicies\":[\"override\",\"reuse\"],\"conflictResolutionPolicy\":\"reuse\"}],\"middlewareSvcs\":[],\"dataAdapters\":[],\"logicPackages\":[],\"customCodeResources\":[]}"
+}

@@ -19,6 +19,22 @@
             "codeSnippet": "loginPostShow();",
             "parentId": null,
             "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___d455733481c04d22bcdfb1cdaa4d95b6",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "lblError",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "0125e7b130e6453b8c01d82f5043ce3a",
+            "widgetKUID": "f3c1354beddc4b72a4a4764a8308281c",
+            "isSkinProperty": false,
+            "wType": "Label",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmLogin.lblError"
         }]
     }
 }

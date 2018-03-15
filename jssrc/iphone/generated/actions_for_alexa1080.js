@@ -1,10 +1,133 @@
 //actions.js file 
+function AS_Button_bc85595f24bd43e0af7a39e8aadda3c4(eventobject) {
+    this.touchCancelAction();
+}
+
+function AS_Button_d06dd8aa54a846a7866d73b869fa9829(eventobject) {
+    this.touchEnableAction();
+}
+
+function AS_Button_deaad3576fdd45dfb7bd4cea5907d98c(eventobject) {
+    this.invokeButtonClick();
+}
+
+function AS_Button_fe871ac9bd194551b75bf1f10044f309(eventobject) {
+    this.cancelTouchID();
+}
+
+function AS_FlexContainer_0565b74578ed4af8ba232bf0cd2b9541(eventobject) {
+    this.invokeTouchID();
+}
+
+function AS_FlexContainer_07ba05cb1ac846cfa63ea9b3cb45bfad(eventobject, x, y) {
+    this.selectedCursor = "right";
+    this.obj.PinIndicatorIsEnabled(true, this.view.imgPinIndicatorRight, this.view.lblIndicatorRight);
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_3b9568e3ddaf4ac5b64f047925075205(eventobject, x, y) {
+    this.selectedCursor = "";
+    this.obj.PinIndicatorIsEnabled(false, this.view.imgPinIndicator, this.view.lblIndicatorLeft);
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_40857fa09bd74ab296b13260a335a8c6(eventobject) {
+    this.remembermeSelection();
+}
+
+function AS_FlexContainer_6d242047b5604d789398fffe8c10f3f8(eventobject, x, y) {
+    this.onTouchValidate(x);
+}
+
+function AS_FlexContainer_796bb3019ea24d0fb29a556eaee738dc(eventobject, x, y) {
+    this.onSnapValidate(x);
+}
+
+function AS_FlexContainer_a41ac074956a48729e98564736073c63(eventobject, x, y) {
+    this.selectedCursor = "left";
+    this.obj.PinIndicatorIsEnabled(true, this.view.imgPinIndicator, this.view.lblIndicatorLeft);
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_a577f20bc92e4174a07871e987f1aa3d(eventobject) {
+    if (this.view.lblPassword.top == "23%") {
+        this.view.flxLblPassword.isVisible = false;
+        this.invokeTouch(this.view.lblPassword, "16%");
+    }
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_b2c4c1126c634935ac6734dd94258577(eventobject, x, y) {
+    this.obj.onTouchValidate(this, x);
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_b5222b09fbad45b59f22fead2d5f5c1c(eventobject) {
+    kony.store.setItem("inputType", "social");
+    this.invokeIdentityService("reusableGoogleLogin");
+}
+
+function AS_FlexContainer_b7c5838cd37c4b35bfed7f8ca9b83b2f(eventobject, x, y) {
+    this.selectedCursor = "";
+    this.obj.PinIndicatorIsEnabled(false, this.view.imgPinIndicatorRight, this.view.lblIndicatorRight);
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_bdd040f43ece4565aaefba3bdd182aee(eventobject, x, y) {
+    //Block Actions
+}
+
+function AS_FlexContainer_c1889801e50245af819017fdb980bed6(eventobject) {
+    kony.store.setItem("inputType", "social");
+    this.invokeIdentityService("reusableFacebookLogin");
+}
+
+function AS_FlexContainer_c456c5f9c50e4ba8b9897794f2d70232(eventobject) {
+    if (this.view.lblUsername.top == "6%") {
+        this.view.flxLblUsername.isVisible = false;
+        this.invokeTouch(this.view.lblUsername, "-1%");
+    }
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_c86710f8599b4a1f8ef335ad57a4a707(eventobject) {
+    this.view.flxIdentity.isVisible = false;
+    this.view.brwsrIdentity.htmlString = "<html>Please wait !!</html>"
+}
+
+function AS_FlexContainer_ce955f520898487cbedc6503f522cb08(eventobject, x, y) {
+    this.obj.onSnapValidate(this, x);
+    this.view.forceLayout();
+}
+
+function AS_FlexContainer_e0ccf673175e48308c705f8f7b27ba5e(eventobject) {
+    kony.store.setItem("inputType", "social");
+    this.invokeIdentityService("reusableOffice365Login");
+}
+
+function AS_FlexContainer_h43834a94d2e4b30b8e51f26a670e2c0(eventobject, x, y) {
+    //Block Actions
+}
+
+function AS_FlexContainer_ia857350c99f4ec4b9646fc5da3a88f6(eventobject) {
+    kony.store.setItem("inputType", "social");
+    this.invokeIdentityService("reusableLinkedinLogin");
+}
+
+function AS_TextField_35916db09d234cef9beb1541afb1fd67(eventobject, changedtext) {
+    this.onDoneCredentials(this.view.lblPassword);
+}
+
+function AS_TextField_f2a98e0e28fa4cf7ab5090e88380bb66(eventobject, changedtext) {
+    this.onDoneCredentials(this.view.lblUsername);
+}
+
 function AS_Button_74ca53c3bc3e41639cf49e9da1b44f28(eventobject) {
     onClickRemMe();
 }
 
 function AS_Button_a683cbbc3ecb4ea892e84d030183038c(eventobject) {
-    frmHome.show();
+    frmLogin.lblError["isVisible"] = true;
 }
 
 function AS_Button_d157b3a95a2e4a80abb92cf17ac77a1b(eventobject) {
@@ -114,7 +237,7 @@ function AS_Form_21521ecc27b249c89ffbd70643f81d07(eventobject) {
 }
 
 function AS_Form_2c269163c7a84bd193dd36b6a7bfcd92(eventobject) {
-    setNotifData();
+    getMovies();
 }
 
 function AS_Form_76fc347c108543fe8abce6ccfc385bf3(eventobject) {
@@ -125,6 +248,11 @@ function AS_Form_81877d4d79794f36b10d176859a6619a(eventobject) {
     loginPreshow();
 }
 
+function AS_Form_99d55425f4314f0d87ac3566b6ca121b(eventobject) {
+    kony.print("Do nothing");
+}
+
 function AS_Form_a429641003be4696839551f72e8b08d2(eventobject) {
     loginPostShow();
+    frmLogin.lblError["isVisible"] = false;
 }

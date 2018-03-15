@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__835227ab92dc4f8e81099796a0f22fe7",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "setNotifData();",
+            "codeSnippet": "getMovies();",
             "parentId": null,
             "callbackType": null
         }]

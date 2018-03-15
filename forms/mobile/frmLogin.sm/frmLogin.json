@@ -23,14 +23,15 @@
     "android": {
         "needAppMenu": false,
         "psp": {
-            "windowSoftInputMode": 1
+            "windowSoftInputMode": 2
         }
     },
     "bounces": false,
     "canUpdateUI": true,
     "children": [
         "imgLogin",
-        "flexLogin"
+        "flexLogin",
+        "lblError"
     ],
     "containerweight": 100,
     "currentLocale": "default",

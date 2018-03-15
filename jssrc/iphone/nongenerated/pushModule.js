@@ -17,7 +17,7 @@ function registerPush() {
         config = [0, 1, 2];
     } else {
         config = {
-            senderid: "404858849718"
+            senderid: "947073648918"
         };
     }
     try {
@@ -33,7 +33,7 @@ function regSuccess(ident) {
     if (kony.os.deviceInfo().name === "iPhone") {
         kmsObject.register("iphone", deviceID, ident, "Alexa", registerSubscriberPushCallback, failureCallback);
     } else {
-        kmsObject.register("androidgcm", deviceID, ident, "demo@kony.com", registerSubscriberPushCallback, failureCallback);
+        kmsObject.register("androidgcm", deviceID, ident, "Alexa", registerSubscriberPushCallback, failureCallback);
     }
 }
 

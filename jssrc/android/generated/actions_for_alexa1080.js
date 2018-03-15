@@ -114,7 +114,7 @@ function AS_Form_21521ecc27b249c89ffbd70643f81d07(eventobject) {
 }
 
 function AS_Form_2c269163c7a84bd193dd36b6a7bfcd92(eventobject) {
-    setNotifData();
+    getMovies();
 }
 
 function AS_Form_76fc347c108543fe8abce6ccfc385bf3(eventobject) {
@@ -123,6 +123,10 @@ function AS_Form_76fc347c108543fe8abce6ccfc385bf3(eventobject) {
 
 function AS_Form_81877d4d79794f36b10d176859a6619a(eventobject) {
     loginPreshow();
+}
+
+function AS_Form_99d55425f4314f0d87ac3566b6ca121b(eventobject) {
+    kony.print("Do nothing");
 }
 
 function AS_Form_a429641003be4696839551f72e8b08d2(eventobject) {

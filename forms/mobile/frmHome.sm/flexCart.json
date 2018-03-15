@@ -44,7 +44,7 @@
     "enablescrolling": true,
     "id": "flexCart",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "77eba2f9280a466ca91ab494b0843cc1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

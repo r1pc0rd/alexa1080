@@ -57,10 +57,12 @@ function onclickServer(n) {
     }
 }
 playerNameVal = "Living Room";
+playerId = 2
 
 function onclickPlayer(n) {
     if (n == 1) {
         playerNameVal = "Guest Room";
+        playerId = 1;
         frmHome.flexPlayerImg1.skin = "sknFlexPlayerF";
         frmHome.flexPlayerLbl1.skin = "sknLbl3F";
         frmHome.flexPlayerImg2.skin = "sknFlexPlayer";
@@ -73,6 +75,7 @@ function onclickPlayer(n) {
         frmHome.flexPlayerLbl5.skin = "sknLbl3";
     } else if (n == 2) {
         playerNameVal = "Living Room";
+        playerId = 2;
         frmHome.flexPlayerImg2.skin = "sknFlexPlayerF";
         frmHome.flexPlayerLbl2.skin = "sknLbl3F";
         frmHome.flexPlayerImg1.skin = "sknFlexPlayer";
@@ -85,6 +88,7 @@ function onclickPlayer(n) {
         frmHome.flexPlayerLbl5.skin = "sknLbl3";
     } else if (n == 3) {
         playerNameVal = "Drawing Room";
+        playerId = 3;
         frmHome.flexPlayerImg3.skin = "sknFlexPlayerF";
         frmHome.flexPlayerLbl3.skin = "sknLbl3F";
         frmHome.flexPlayerImg2.skin = "sknFlexPlayer";
@@ -97,6 +101,7 @@ function onclickPlayer(n) {
         frmHome.flexPlayerLbl5.skin = "sknLbl3";
     } else if (n == 4) {
         playerNameVal = "Games Room";
+        playerId = 4;
         frmHome.flexPlayerImg4.skin = "sknFlexPlayerF";
         frmHome.flexPlayerLbl4.skin = "sknLbl3F";
         frmHome.flexPlayerImg2.skin = "sknFlexPlayer";
@@ -109,6 +114,7 @@ function onclickPlayer(n) {
         frmHome.flexPlayerLbl5.skin = "sknLbl3";
     } else {
         playerNameVal = "Dining Room";
+        playerId = 5;
         frmHome.flexPlayerImg5.skin = "sknFlexPlayerF";
         frmHome.flexPlayerLbl5.skin = "sknLbl3F";
         frmHome.flexPlayerImg2.skin = "sknFlexPlayer";

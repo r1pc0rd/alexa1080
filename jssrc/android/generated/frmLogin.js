@@ -217,7 +217,7 @@ function frmLoginGlobals() {
         "retainScrollPosition": false,
         "titleBar": false,
         "titleBarSkin": "slTitleBar",
-        "windowSoftInputMode": constants.FORM_ADJUST_RESIZE
+        "windowSoftInputMode": constants.FORM_ADJUST_PAN
     });
     frmLogin.info = {
         "kuid": "0125e7b130e6453b8c01d82f5043ce3a"
