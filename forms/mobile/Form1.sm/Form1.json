@@ -27,8 +27,7 @@
     "canUpdateUI": true,
     "children": [
         "slider",
-        "Button0bfd3e9ed7be641",
-        "Button0f06cd3dcc0144a"
+        "Image0g9cc208f8dfd46"
     ],
     "containerweight": 100,
     "currentLocale": "default",
