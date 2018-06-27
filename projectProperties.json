@@ -145,7 +145,7 @@
     },
     "createdVizVersion": "7.1.0",
     "createdgaversion": "7.1.0",
-    "currentgaversion": "8.0.0",
+    "currentgaversion": "8.1.16",
     "defaulttheme": "defaultTheme",
     "desktopwebaligenmentoption": "Left",
     "desktopwebbasefontsize": "16",
@@ -158,7 +158,7 @@
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
     "isNewAppWithRespectToAndroidPackageName": "",
-    "konyVizVersion": "8.0.0",
+    "konyVizVersion": "8.1.16",
     "mastersProperties": {
         "mastersVersion": "1.0.0"
     },
@@ -172,11 +172,11 @@
         "isModified": true,
         "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": false
+        "isEnableJSContaineriOS": true
     },
     "project.type": "js",
     "projectCloudGuid": "a468e0c3-f4d0-408e-941a-57e81ee54042",
-    "project_version": "sprint29",
+    "project_version": "sprint30",
     "prototype": {
         "createdBy": "Akshay%20 Jain",
         "createdById": "f8d7fee9-ad5e-4be1-9d1a-8b5b8cab856e",

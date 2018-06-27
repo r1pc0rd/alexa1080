@@ -602,13 +602,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxTouchId",
@@ -641,13 +646,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxSocialLogin",
@@ -697,13 +707,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxFacebook",
@@ -753,13 +768,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxLinkedin",
@@ -809,13 +829,18 @@
                                 "iphone",
                                 "android",
                                 "winphone8",
-                                "spa"
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
                             ],
                             "tablet": [
                                 "ipad",
                                 "android",
                                 "windows8",
-                                "spa"
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
                             ]
                         },
                         "srcWidget": "flxOffice365",
