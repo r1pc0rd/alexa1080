@@ -38,7 +38,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone6",
+    "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "enablescrolling": false,
@@ -64,13 +64,11 @@
                 "kuid": "fae5820c479d40e0a0c14f5fcb7e99a2",
                 "leftBarButtonItems": [
                     {
-                        "buttonClosureLeftSideView": "",
                         "kuid": "b774143737954e568b62d9131ce88e43",
                         "leftButtonText": "Back",
                         "leftTitle": "Back",
                         "prevFormTitle": false,
                         "titleBarLeftSideView": "button",
-                        "titleClosureLeftSideView": "",
                         "type": 4
                     }
                 ],
@@ -84,8 +82,8 @@
                             "title": "Edit"
                         },
                         "kuid": "d9811548131b4399a68f94ee13f48e15",
-                        "onClick": "",
                         "style": 0,
+                        "tintColor": "333333",
                         "type": 1
                     }
                 ],
@@ -104,10 +102,10 @@
     "platform": "iphone",
     "postshow": "AS_Form_a429641003be4696839551f72e8b08d2",
     "preshow": "AS_Form_81877d4d79794f36b10d176859a6619a",
-    "prevDevice": "iPhone6",
+    "prevDevice": "iPhoneX",
     "prevPlatform": "iphone",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "iOS_iPhoneX",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
