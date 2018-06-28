@@ -23,7 +23,7 @@
             "parentId": "",
             "callbackType": null,
             "enableMappingEditor": true,
-            "disabled": true,
+            "disabled": false,
             "package": ""
         }, {
             "id": "SET_FORM_WIDGET_PROPERTY_Untitled___db67482050e444e4a44444addc59484d",
@@ -40,6 +40,7 @@
             "forkedPlatform": "all",
             "parentId": null,
             "callbackType": null,
+            "disabled": true,
             "widgetPath": "frmLogin.lblError"
         }]
     }
